@@ -1,0 +1,114 @@
+body {
+    max-width: 1140px;
+    margin: auto;
+    font-size: 18px;
+}
+body {
+    font-family: 'Hind Madurai', sans-serif;
+}
+.hidden {
+    display: none;
+}
+.title {
+    font-family: HindMadurai;
+    font-size: 1.38em;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #454545;
+}
+.strong-contents {
+    font-family: HindMadurai;
+    font-size: 1em;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #454545;
+}
+.contents {
+    font-family: HindMadurai;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #454545;
+}
+.subtitle {
+    font-family: HindMadurai;
+    font-size: 0.88em;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #33427c;
+}
+.nav-header {
+    padding-top: 30px;
+}
+#header-name{
+    font-family: HindMadurai;
+    font-size: 1.38em;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #454545;
+}
+.brand img {
+    max-width: 55px;
+}
+.nav-header ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.nav-header ul li {
+    display: inline;
+    margin-right: 30px;
+    font-family: HindMadurai;
+    font-size: 1em;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: justify;
+
+}
+.nav-header ul li a{
+    color: #33427c;
+}
+.nav-header .email-address{
+    display: inline-block;
+    border: 1px solid #d9d8d9;
+}
+.nav-header .email-address input{
+    border: 0;
+    cursor: text;
+}
+#email-nav {
+    position: relative;
+}
+#email-copy-wrapper {
+    top: 25px;
+    position: absolute;
+    width: 300px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+#email-copy-wrapper input {
+    width: 220px;
+}
+#email-nav:hover #email-copy-wrapper{
+    visibility: visible;
+    opacity: 1;
+}

@@ -1,0 +1,6 @@
+@import "main.css";
+.txt-rotate .wrap {
+    border-right: 2px solid #33427c;
+    white-space: pre-wrap;
+    padding-right: 2px;
+}

@@ -1,0 +1,15 @@
+{
+  "projects": [
+    {
+      "title": "Planning Feature - Exploring the Protential for Plan-hub Page",
+      "subTitle": "Globaleur UI & UX Project",
+      "image": "/public/assets/logo@2x.png"
+    },
+    {
+        "title": "Start Planning Feature - Exploring City and Date Picking Possibilities",
+        "subTitle": "Globaleur UI & UX Project",
+        "image": "/public/assets/logo@2x.png"
+    }
+  ],
+  "css": "/public/css/home.css"
+}
