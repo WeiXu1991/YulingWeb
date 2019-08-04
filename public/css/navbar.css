@@ -1,0 +1,15 @@
+nav {
+  background: #ffffff;
+  max-width: 1140px;
+  margin: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+.navbar-nav {
+  transition: opacity 0.3s;
+  opacity: 1;
+}
+.navbar-nav.hide-nav-links {
+  display: none;
+  opacity: 0;
+}

@@ -1,26 +1,57 @@
 extends layout.pug
 block content
-    div(class='self-intro container')
-        div(class='row justify-content-end')
-            div(class='self-intro col-md-12 col-lg-8')
-                h1(class='intro-greeting') Hi, I am
-                    span(class='txt-rotate')
-                        span(class='wrap')
-                p 
-                    | Focusing on interactive experiences &amp; mobile apps,
-                    | currently co-leading a design team at Globaleur.
-                    | As a designer, I craft experiences through user interactions, visual design, and prototyping.
-                    | Additionally, I familiar with front-end technologies such as HTML, CSS, and JavaScript.
-                    | I care about the details and consider the UX design to be important in creating compelling, intuitive interfaces.
-                    | I’m based in the San Francisco Bay area.
-                    | If you think I'd be a good fit for your team, please get in touch, and we can chat.
-                    | Thanks for stopping by.
+  div(class='contact-info')
+    h2(id="header-name") Yuling Pan
+    div(class='contact-links')
+      ul
+        li(id='email-nav')
+          a(href='#', data-email='papeny.pppp@gmail.com') Email
+          div(id='email-copy-wrapper')
+            div(id='email-copy-content')
+              div(class='email-address position-relative')
+                input(
+                  id='email-text'
+                  type='text'
+                  value='ypandesign@gmail.com'
+                  readonly
+                  )
+                button(id='copy-email', type='button') Copy
+                input(
+                  id='email-copy-success'
+                  class='hidden position-absolute'
+                  type='text'
+                  value='EMAIL COPIED'
+                  readonly
+                  )
+        li
+          a(href='#') Resume
+        li
+          a(
+            target='_blank'
+            href='https://www.linkedin.com/in/yuling-pan-china/'
+            ) Linkedin
+  div(class='self-intro container')
+    div(class='row justify-content-end')
+      div(class='self-intro col-md-12 col-lg-8')
+        h1(class='intro-greeting') Hi, I am&nbsp;
+          span(class='txt-rotate')
+            span(class='wrap')
+        p
+          | Focusing on interactive experiences &amp; mobile apps,
+          | currently co-leading a design team at Globaleur.
+          | As a designer, I craft experiences through user interactions, visual design, and prototyping.
+          | Additionally, I familiar with front-end technologies such as HTML, CSS, and JavaScript.
+          | I care about the details and consider the UX design to be important in creating compelling, intuitive interfaces.
+          | I’m based in the San Francisco Bay area.
+          | If you think I'd be a good fit for your team, please get in touch, and we can chat.
+          | Thanks for stopping by.
 
-    div(class='project-list container')
-        each project in projects
-            div(class='project row')
-                div(class='project-title col-lg-5')
-                    h2 #{project.subTitle}
-                    h1 #{project.title}
-                div(class='project-image col-lg-7')
-                    img(src=project.image)
+  div(class='project-list container')
+    each project in projects
+      div(class='project row')
+        div(class='project-title col-lg-5')
+          h2(class="project-subtitle") #{project.subTitle}
+          h1 #{project.title}
+        div(class='project-image col-lg-7')
+          img(src=project.image)
+  script(src='/public/js/home.js')

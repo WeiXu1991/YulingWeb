@@ -1,6 +1,25 @@
 @import "main.css";
+@import "partials/homePageHeaderLinks.css";
+
 .txt-rotate .wrap {
     border-right: 2px solid #33427c;
     white-space: pre-wrap;
     padding-right: 2px;
+}
+.project-list {
+    margin-top: 150px;
+}
+.project {
+    margin-top: 50px;
+}
+.project .project-subtitle {
+    opacity: 0.71;
+    font-family: HindMadurai;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #33427c;
 }

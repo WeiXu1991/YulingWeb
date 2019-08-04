@@ -1,0 +1,86 @@
+#header-name{
+  font-family: HindMadurai;
+  font-size: 1.38em;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #454545;
+}
+.contact-info ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.contact-info ul li {
+  display: inline;
+  padding-right: 30px;
+  font-family: HindMadurai;
+  /* font-size: 1em; */
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: justify;
+
+}
+.contact-info ul li a{
+  color: #33427c;
+  font-size: 16px;
+}
+.contact-info .email-address{
+  display: inline-block;
+  height: 40px;
+  border-radius: 4px;
+  border: solid 1px #e2e2e2;
+}
+.contact-info .email-address input{
+  border: 0;
+  cursor: text;
+  color: #33427c;
+  font-size: 12px;
+  font-weight: 300;
+}
+.contact-info .email-address button{
+  width: 62px;
+  height: 100%;
+  border-radius: 3px;
+  background-color: #33427c;
+  font-family: HindMadurai;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  border: 0;
+}
+#email-nav {
+  position: relative;
+}
+#email-copy-wrapper {
+  top: 25px;
+  padding-top: 8px;
+  position: absolute;
+  width: 220px;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s linear;
+}
+#email-copy-wrapper input {
+  width: 140px;
+  padding-left: 8px;
+  vertical-align: middle;
+  height: 36px;
+}
+#email-nav:hover #email-copy-wrapper{
+  visibility: visible;
+  opacity: 1;
+}
+#email-copy-success{
+  left: 0;
+  font-size: 12px;
+}

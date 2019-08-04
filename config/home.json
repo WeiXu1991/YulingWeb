@@ -9,6 +9,11 @@
         "title": "Start Planning Feature - Exploring City and Date Picking Possibilities",
         "subTitle": "Globaleur UI & UX Project",
         "image": "/public/assets/logo@2x.png"
+    },
+    {
+      "title": "SFCCDM - A Digital Map for SF Cable Car ",
+      "subTitle": "Personal UI & UX Project",
+      "image": "/public/assets/logo@2x.png"
     }
   ],
   "css": "/public/css/home.css"
