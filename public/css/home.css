@@ -6,11 +6,38 @@
     white-space: pre-wrap;
     padding-right: 2px;
 }
+.intro-greeting {
+    font-family: HindMadurai;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #44467a;
+}
+.intro-text {
+    font-family: HindMadurai;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #454545;
+}
 .project-list {
     margin-top: 150px;
 }
 .project {
     margin-top: 50px;
+}
+.project .project-image {
+    height: 400px;
+    background-color: #f5f5f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .project .project-subtitle {
     opacity: 0.71;
@@ -22,4 +49,15 @@
     line-height: normal;
     letter-spacing: normal;
     color: #33427c;
+}
+.project .project-title {
+    font-family: HindMadurai;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #454545;
+    padding-top: 12px;
 }

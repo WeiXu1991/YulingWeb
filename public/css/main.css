@@ -51,3 +51,18 @@ body {
 #content-wrapper{
     padding-top: 66px;
 }
+#footer{
+    padding-top: 80px;
+}
+#copy-right{
+    opacity: 0.71;
+    font-family: HindMadurai;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #33427c;
+    text-align: center;
+}

@@ -12,9 +12,6 @@ $(document).ready(($) => {
       allImages[i].src = allImages[i].src.replace('@2x', '');
     }
   }
-
-
-
   //   function showText(textArray, index) {
   //     const text = textArray[index];
   //   }

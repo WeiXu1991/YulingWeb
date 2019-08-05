@@ -5,6 +5,7 @@ $(document).ready(($) => {
   const textChangeSpeed = 250;
   let selfIntroYOffset = $('.self-intro').offset().top;
   let navHeight = $('nav').outerHeight();
+  const colorSet = ['#44467a', '#ff565e'];
 
   $('.navbar-nav').addClass('hide-nav-links');
 
@@ -29,9 +30,16 @@ $(document).ready(($) => {
     $('.txt-rotate .wrap').text($('.txt-rotate .wrap').text().substring(0, $('.txt-rotate .wrap').text().length - 1));
   }
 
+  function changeTextColor(color) {
+    $('.txt-rotate .wrap').css({
+      color,
+    });
+  }
+
   function showNextLetter(textArray, index, letterIndex, mover) {
     const textString = textArray[index];
     if (letterIndex === 0 && mover === 1) {
+      changeTextColor(colorSet[index]);
       appendLetter(textString[letterIndex]);
       window.setTimeout(() => {
         showNextLetter(textArray, index, letterIndex + 1, mover);

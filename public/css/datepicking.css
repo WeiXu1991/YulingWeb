@@ -1,0 +1,30 @@
+@import "main.css";
+ul.section-list {
+  list-style-type: decimal;
+  padding-left: 30px;
+  /* list-style-position: inside; */
+}
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+section .section-title {
+  font-family: HindMadurai;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #454545;
+}
+section p {
+  font-family: HindMadurai;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #454545;
+}
