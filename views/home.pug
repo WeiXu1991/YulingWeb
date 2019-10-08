@@ -32,7 +32,7 @@ block content
             ) Linkedin
   div(class='self-intro container')
     div(class='row justify-content-end')
-      div(class='self-intro col-md-12 col-lg-8')
+      div(class='self-intro col-md-8 col-lg-8')
         h1(class='intro-greeting') Hi, I am&nbsp;
           span(class='txt-rotate')
             span(class='wrap')
@@ -51,9 +51,10 @@ block content
       a(href=project.link)
         div(class='project row')
 
-          div(class='project-head col-lg-5')
+
+          div(class='project-image col-lg-7 order-lg-2')
+            img(src=project.image)
+          div(class='project-head col-lg-5 col-md-7 order-lg-1')
             h2(class="project-subtitle") #{project.subTitle}
             h1(class="project-title") #{project.title}
-          div(class='project-image col-lg-7')
-            img(src=project.image)
   script(src='/public/js/home.js')

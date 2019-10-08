@@ -1,5 +1,5 @@
 #header-name{
-  font-family: HindMadurai;
+  font-family: 'Hind Madurai', sans-serif;
   font-size: 1.38em;
   font-weight: 600;
   font-style: normal;
@@ -16,7 +16,7 @@
 .contact-info ul li {
   display: inline;
   padding-right: 30px;
-  font-family: HindMadurai;
+  font-family: 'Hind Madurai', sans-serif;
   /* font-size: 1em; */
   font-weight: 500;
   font-style: normal;
@@ -48,7 +48,7 @@
   height: 100%;
   border-radius: 3px;
   background-color: #33427c;
-  font-family: HindMadurai;
+  font-family: 'Hind Madurai', sans-serif;
   font-size: 16px;
   font-weight: 500;
   font-style: normal;

@@ -3,20 +3,20 @@
     {
       "title": "Planning Feature - Exploring the Protential for Plan-hub Page",
       "subTitle": "Globaleur UI & UX Project",
-      "image": "/public/assets/logo@2x.png",
+      "image": "/public/assets/planhub_homepic.png",
       "link": "/projects/datePicking"
     },
     {
         "title": "Start Planning Feature - Exploring City and Date Picking Possibilities",
         "subTitle": "Globaleur UI & UX Project",
-        "image": "/public/assets/logo@2x.png",
-        "link": "/projects/datePicking"
+        "image": "/public/assets/datepick_homepic.png",
+        "link": "/projects/planning"
     },
     {
       "title": "SFCCDM - A Digital Map for SF Cable Car ",
       "subTitle": "Personal UI & UX Project",
-      "image": "/public/assets/logo@2x.png",
-      "link": "/projects/datePicking"
+      "image": "/public/assets/sf_homepage.png",
+      "link": "/projects/SFCCDM320"
     }
   ],
   "css": "/public/css/home.css"

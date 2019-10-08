@@ -9,7 +9,7 @@ body {
     display: none;
 }
 .title {
-    font-family: HindMadurai;
+    font-family: 'Hind Madurai', sans-serif;
     font-size: 1.38em;
     font-weight: bold;
     font-style: normal;
@@ -19,7 +19,7 @@ body {
     color: #454545;
 }
 .strong-contents {
-    font-family: HindMadurai;
+    font-family: 'Hind Madurai', sans-serif;
     font-size: 1em;
     font-weight: 600;
     font-style: normal;
@@ -29,7 +29,7 @@ body {
     color: #454545;
 }
 .contents {
-    font-family: HindMadurai;
+    font-family: 'Hind Madurai', sans-serif;
     font-size: 1em;
     font-weight: normal;
     font-style: normal;
@@ -39,7 +39,7 @@ body {
     color: #454545;
 }
 .subtitle {
-    font-family: HindMadurai;
+    font-family: 'Hind Madurai', sans-serif;
     font-size: 0.88em;
     font-weight: normal;
     font-style: normal;
@@ -56,7 +56,7 @@ body {
 }
 #copy-right{
     opacity: 0.71;
-    font-family: HindMadurai;
+    font-family: 'Hind Madurai', sans-serif;
     font-size: 16px;
     font-weight: normal;
     font-style: normal;
@@ -65,4 +65,7 @@ body {
     letter-spacing: normal;
     color: #33427c;
     text-align: center;
+}
+#greeting-bg{
+    display: none;
 }

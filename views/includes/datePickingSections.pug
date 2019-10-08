@@ -1,7 +1,7 @@
-section(class="container")
+section(class="container-fluid")
   div(class="section-wrapper row justify-content-md-center")
-    h2(class='section-title col-lg-8') Start Planning Feature for Globaleur
-    p(class='col-lg-8').
+    h2(class='section-title col-lg-8 col-md-10') Start Planning Feature for Globaleur
+    p(class='col-lg-8 col-md-10').
       In the summer of 2018,
       I started my full time as a UI/UX designer at Globaleur.
       Globaleur is a web and app platform that uses Machine Learning
@@ -9,10 +9,10 @@ section(class="container")
       and automated travel itinerary with real-time on-site assistance
       and one-stop shop booking solution.
 
-section(class="container")
+section(class="container-fluid")
   div(class="section-wrapper row justify-content-md-center")
-    h2(class='section-title col-lg-8') My Role
-    p(class='col-lg-8').
+    h2(class='section-title col-lg-8 col-md-10') My Role
+    p(class='col-lg-8 col-md-10').
       I am responsible for  UX research,
       UX design, interactive prototyping,
       visual design, and user testing.
@@ -20,74 +20,200 @@ section(class="container")
       engineers, product managers, and other stakeholders.
       I had a lot of fun with it—Hope you enjoy it!
 
-section(class="container")
+section(class="container-fluid")
   div(class="section-wrapper row justify-content-md-center")
-    h2(class='section-title col-lg-8') Problem
-    p(class='col-lg-8').
+    h2(class='section-title col-lg-8 col-md-10') Problem
+    p(class='col-lg-8 col-md-10').
       Due to the system was designed based on one city trip,
       users had less freedom to adjust their plan for multiple cities.
       And there were too many steps for the user to plan with multiple cities.
       Our plan generation is using live data,
       and the calculation bases on the chose cities and dates.
-    ul(class='col-lg-8 section-list')
-      li
-        p.
-          According to the current design,
-          3/4 of the users ignore to choose a date
-          before clicking the start planning button.
-      li
-        p.
-          When the users switch the city order,
-          they should change the dates manually.
-      li
-        p.
-          When the users select disconnected dates,
-          it will cause some buffer days between 2 cities.
+    div(class='col-lg-8 col-md-10')
+      ol(class='number-list')
+        li
+          p.
+            According to the current design,
+            3/4 of the users ignore to choose a date
+            before clicking the start planning button.
+        li
+          p.
+            When the users switch the city order,
+            they should change the dates manually.
+        li
+          p.
+            When the users select disconnected dates,
+            it will cause some buffer days between 2 cities.
 
-section(class="container")
+section(class="container-fluid")
   div(class="section-wrapper row justify-content-md-center")
-    h2(class='section-title col-lg-8') Solution
-    p(class='col-lg-8').
+    h2(class='section-title col-lg-8 col-md-10') Solution
+    p(class='col-lg-8 col-md-10').
       Rearrange the way of city and dates picking
       can increase users' potential for discovery,
       editing, engagement, and result in overall enhanced experience.
-    h3(class='col-lg-8') It will be achieved through these 3 goals:
-    ul(class='col-lg-8 section-list')
-      li
-        p Users would not skip the date picking process.
-      li
-        p Users feel less confused when they make some changes.
-      li
-        p City and date picking process is more straightforward for users to start.
+    div(class='col-lg-8 col-md-10')
+      h3(class='section-sub-title') It will be achieved through these 3 goals:
+      ol(class='number-list')
+        li
+          p Users would not skip the date picking process.
+        li
+          p Users feel less confused when they make some changes.
+        li
+          p City and date picking process is more straightforward for users to start.
 
-section(class="container")
+section(class="container-fluid")
   div(class="section-wrapper row justify-content-md-center")
-    h2(class='section-title col-lg-8') Process
-    img(src="", alt="")
+    h2(class='section-title col-lg-8 col-md-10') Process
+    div(class='section-img-process section-img col-12 container-fluid')
+      div(class='section-img-process row justify-content-md-center')
+        div(class='col-lg-10 col-md-12 ver-hor-center')
+          img(src="/public/assets/process.png", alt="")
 
-section(class="container")
+section(class="container-fluid")
   div(class="section-wrapper row justify-content-md-center")
-    h2(class='section-title col-lg-8') Design Tenets
-    p(class='col-lg-8') The two tenets were nthe guideline while I was designing the flows.
-    h3(class='col-lg-8') Flexibility
-    p(class='col-lg-8') Users should have the most flexibility to make their plans.
-    h3(class='col-lg-8') Scalability
-    p(class='col-lg-8').
+    h2(class='section-title col-lg-8 col-md-10') Design Tenets
+    p(class='col-lg-8 col-md-10') The two tenets were nthe guideline while I was designing the flows.
+    h3(class='col-lg-8 col-md-10 section-sub-title') Flexibility
+    p(class='col-lg-8 col-md-10') Users should have the most flexibility to make their plans.
+    h3(class='col-lg-8 col-md-10 section-sub-title') Scalability
+    p(class='col-lg-8 col-md-10').
       Designs should offer better solutions to clear
       and simplify the steps while the users are planning.
       The consistent design should be across the mobile and desktop platform.
       And we should take into account the planning feature's future direction.
 
-section(class="container")
+section(id='competitors' class="container-fluid")
   div(class="section-wrapper row justify-content-md-center")
-    h2(class='section-title col-lg-8') Competitors
-    p(class='col-lg-8').
+    h2(class='section-title col-lg-8 col-md-10') Competitors
+    p(class='col-lg-8 col-md-10').
       We did a competitive analysis.
       There are so many applications doing trip planning,
       but none of them are providing live POI itinerary based on the dates.
       So, we are facing more problems,
       and our flows would be more complicated than them.
+    div(class='section-img col-lg-8 col-md-10')
+      img(src="/public/assets/competitors.png", alt="")
 
-section(class="container")
+
+section(id='persona' class="container-fluid")
   div(class="section-wrapper row justify-content-md-center")
-    h2(class='section-title col-lg-8') Persona
+    h2(class='section-title col-lg-8 col-md-10') Persona
+    div(class='gray-bg container-fluid')
+      div(class='col-content-8 row justify-content-md-center')
+        div(class='col-lg-2 col-md-2 ver-hor-center')
+          img(src='/public/assets/persona.jpg')
+        div(class='col-lg-6 col-md-8 ver-center')
+          span.
+            A 25 young profession is planning his 6-day time off.
+            He has several destinations in mind with settled dates.
+
+section(class="container-fluid")
+  div(class="section-wrapper row justify-content-md-center")
+    h2(class='section-title col-lg-8 col-md-10') FLOW
+    div(class='carousel-content gray-bg col-lg-12')
+      div(id="carouselFlow" class="carousel slide" data-ride="carousel")
+        ol(class="carousel-indicators")
+          li(data-target="#carouselFlow" data-slide-to="0" class="active")
+            span VERSION 01
+          li(data-target="#carouselFlow" data-slide-to="1")
+            span VERSION 02
+        div(class="carousel-inner")
+          div(class="carousel-item active")
+            img(class="d-block w-100" src="/public/assets/flow-02.png" alt="Version 1")
+          div(class="carousel-item")
+            img(class="d-block w-100" src="/public/assets/flow-01.png" alt="Version 2")
+        a(class="carousel-control-prev" href="#carouselFlow" role="button" data-slide="prev")
+          span(class="carousel-control-prev-icon" aria-hidden="true")
+          span(class="sr-only") Previous
+        a(class="carousel-control-next" href="#carouselFlow" role="button" data-slide="next")
+          span(class="carousel-control-next-icon" aria-hidden="true")
+          span(class="sr-only") Next
+
+section(class="container-fluid")
+  div(class="section-wrapper row justify-content-md-center")
+    h2(class='section-title col-lg-8 col-md-10') WIREFRAME
+    div(class='carousel-content gray-bg col-lg-12')
+      div(id="carouselWireframe" class="carousel slide" data-ride="carousel")
+        ol(class="carousel-indicators")
+          li(data-target="#carouselWireframe" data-slide-to="0" class="active")
+            span VERSION 01
+          li(data-target="#carouselWireframe" data-slide-to="1")
+            span VERSION 02
+          li(data-target="#carouselWireframe" data-slide-to="2")
+            span VERSION 03
+        div(class="carousel-inner")
+          div(class="carousel-item active")
+            img(class="d-block w-100" src="/public/assets/wire1.png" alt="Version 1")
+          div(class="carousel-item")
+            img(class="d-block w-100" src="/public/assets/wire2.png" alt="Version 2")
+          div(class="carousel-item")
+            img(class="d-block w-100" src="/public/assets/wire3.png" alt="Version 3")
+        a(class="carousel-control-prev" href="#carouselWireframe" role="button" data-slide="prev")
+          span(class="carousel-control-prev-icon" aria-hidden="true")
+          span(class="sr-only") Previous
+        a(class="carousel-control-next" href="#carouselWireframe" role="button" data-slide="next")
+          span(class="carousel-control-next-icon" aria-hidden="true")
+          span(class="sr-only") Next
+
+section(id='final-design' class="container-fluid")
+  div(class="section-wrapper row justify-content-md-center")
+    h2(class='section-title col-lg-8 col-md-10') FINAL DESIGN
+    div(class='gray-bg container-fluid')
+      div(class='row justify-content-md-center')
+        div(class='col-lg-12 ver-hor-center')
+          img(src="/public/assets/finalD_2.png", alt="")
+    p(class='col-lg-8 col-md-10').
+      We are giving options to select the same city more than one time.
+      Therefore, there is no need to select the home city and the return city.
+      The first and the last city on the card will be the start and end city.
+      So the "+" button will not change,
+      no matter how many times the same city has been added.
+      The system will generate a plan based on the order of the cities.
+      In that case, users can arrange the orders freely by their needs.
+    p(class='col-lg-8 col-md-10').
+      Our goal is to make the process simple and more intuitive for the user to start plan.
+      After clicking on the "+" button on the city cart,
+      the calendar will pop-up directly. After a city selected,
+      the cart icon will be colored to show there is something added.
+
+section(id='prototypes' class="container-fluid")
+  div(class="section-wrapper row justify-content-md-center")
+    h2(class='section-title col-lg-8 col-md-10') PROTOTYPES
+    div(class='container-fluid')
+      div(class='row section-first-row')
+        div(class='col-lg-4 offset-lg-4 col-md-4 offset-md-1')
+          img(src="/public/assets/DP01.gif", alt="")
+        div(class='col-lg-4 col-md-6')
+          div(class='top-bar')
+          h2 Flexibility
+          p.
+            Date picking becomes more intuitive.
+            Users cannot miss this step.
+            And it will remind the user that the city and dates they were planed.
+          p.
+            There is no need to specify the home city and the return city.
+            The system will generate a plan based on the listed order.
+            And it will simplify the process and with enough information that users might not feel lost and confused.
+      div(class='row')
+        div(class='col-lg-4 col-md-6 offset-md-1')
+          div(class='top-bar')
+          h2 Scalability
+          p.
+            This version clears and simplifies the steps while the users are picking more than one cities.
+            The calendar will remind the user that the date and city they have picked.
+            This page can easily be reformatted as a page for different devices.
+        div(class='col-lg-4 col-md-4')
+          img(src="/public/assets/DP02.gif", alt="")
+
+section(class="container-fluid")
+  div(class="section-wrapper row justify-content-md-center")
+    h2(class='section-title col-lg-8 col-md-10') REFLECTION
+    p(class='col-lg-8 col-md-10').
+      Differences between roles in a team will affect each staff’s preferences and perspective of a to-be-defined good product.
+      The biggest challenge to a UX designer is to create the most satisfactory design possible based on feedback from all the Stakeholders.
+      Those feedbacks must be reviewed, filtered, and leverage to achieve such a result.
+    p(class='col-lg-8 col-md-10').
+      Working for Globaleur,
+      a fast-growing start-up requires me to work with speed and efficiency,
+      keeps challenging myself and learns new techs to improve my problem-solving skill.

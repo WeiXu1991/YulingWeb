@@ -1,30 +1,61 @@
 @import "main.css";
-ul.section-list {
-  list-style-type: decimal;
-  padding-left: 30px;
-  /* list-style-position: inside; */
+@import "project.css";
+/* .col-content-8 {
+  padding-left: 16.67%;
+  padding-right: 16.67%;
+} */
+#persona .col-content-8 {
+  height: 200px;
 }
-section {
-  padding-top: 50px;
-  padding-bottom: 50px;
+#persona .col-content-8 img {
+  max-width: 100px;
 }
-section .section-title {
-  font-family: HindMadurai;
-  font-size: 25px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #454545;
+#final-design .gray-bg .row{
+  height: 400px;
 }
-section p {
-  font-family: HindMadurai;
-  font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #454545;
+#final-design .gray-bg{
+  height: 400px;
+  margin-bottom: 20px;
+}
+#prototypes .top-bar {
+  width: 65px;
+  height: 2px;
+  border-top: solid 2px #33427c;
+}
+#competitors .section-img {
+  height: 65px;
+}
+#prototypes .section-title {
+  margin-bottom: 50px;
+}
+#prototypes .section-first-row {
+  margin-bottom: 100px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 1;
+  color: #33427c;
+}
+.carousel-indicators{
+  top: 0;
+  bottom: unset;
+  justify-content: start;
+}
+.carousel-indicators li {
+  width: unset;
+  height: unset;
+  text-indent: unset;
+  background: transparent;
+  margin-right: 120px;
+  color: #33427c;
+}
+.carousel-indicators li.active{
+  border-bottom: #33427c 2px solid;
+}
+.carousel-indicators li span {
+  font-size: 14px;
+  font-weight: 500;
+}
+#carouselWireframe .carousel-item {
+  margin-top: 60px;
 }

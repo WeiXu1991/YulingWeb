@@ -2,16 +2,14 @@
 /* jslint browser: true */
 /* global window document $ navigator */
 $(document).ready(($) => {
-
-
   // Use 2x image for retina display by default
   // change to 1x for low resolution screen.
-  if (window.devicePixelRatio && window.devicePixelRatio < 2) {
-    const allImages = $('img');
-    for (let i = 0; i < allImages.length; i += 1) {
-      allImages[i].src = allImages[i].src.replace('@2x', '');
-    }
-  }
+  // if (window.devicePixelRatio && window.devicePixelRatio < 2) {
+  //   const allImages = $('img');
+  //   for (let i = 0; i < allImages.length; i += 1) {
+  //     allImages[i].src = allImages[i].src.replace('@2x', '');
+  //   }
+  // }
   //   function showText(textArray, index) {
   //     const text = textArray[index];
   //   }

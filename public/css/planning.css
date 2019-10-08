@@ -1,0 +1,18 @@
+@import "main.css";
+@import "project.css";
+#persona .col-content-8 {
+  height: 200px;
+}
+#persona .col-content-8 img {
+  max-width: 125px;
+}
+#wireframe .gray-bg,
+#final-design .gray-bg {
+  margin-bottom: 20px;
+}
+#version-2-img {
+  margin-top: 80px;
+}
+#more-exploration .gray-bg {
+  margin-bottom: 20px;
+}
