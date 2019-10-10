@@ -11,25 +11,27 @@
   max-width: 100px;
 }
 #final-design .gray-bg .row{
-  height: 400px;
+  height: 500px;
 }
 #final-design .gray-bg{
-  height: 400px;
-  margin-bottom: 20px;
+  height: 500px;
+  margin-bottom: 30px;
 }
 #prototypes .top-bar {
   width: 65px;
   height: 2px;
   border-top: solid 2px #33427c;
+  margin-bottom: 30px;
 }
 #competitors .section-img {
   height: 65px;
+  margin-top: 15px;
 }
 #prototypes .section-title {
   margin-bottom: 50px;
 }
 #prototypes .section-first-row {
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 .carousel-control-prev,
 .carousel-control-next {
@@ -37,6 +39,7 @@
   color: #33427c;
 }
 .carousel-indicators{
+  margin-top: 20px;
   top: 0;
   bottom: unset;
   justify-content: start;
@@ -56,6 +59,12 @@
   font-size: 14px;
   font-weight: 500;
 }
+.carousel-inner .carousel-item img {
+  margin-top: 60px;
+}
 #carouselWireframe .carousel-item {
   margin-top: 60px;
+}
+#carouselWireframe .carousel-item img {
+  margin-bottom: 50px;
 }
