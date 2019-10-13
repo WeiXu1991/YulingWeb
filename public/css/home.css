@@ -62,7 +62,7 @@
 .project .project-title {
     font-family: 'Hind Madurai', sans-serif;
     font-size: 25px;
-    font-weight: bold;
+    font-weight: 600;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
@@ -88,9 +88,7 @@
         margin-top: 20px;
     }
 }
-@media screen and (min-width: 768px) {
 
-}
 @media screen and (max-width: 767px) {
     .project .project-title {
         font-size: 20px;
@@ -100,9 +98,6 @@
     }
     .hidden-sm {
         display: none;
-    }
-    .navbar-nav {
-        display: flex !important;
     }
     .contact-info {
         display: none;

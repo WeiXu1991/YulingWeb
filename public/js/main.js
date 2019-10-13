@@ -2,6 +2,7 @@
 /* jslint browser: true */
 /* global window document $ navigator */
 $(document).ready(($) => {
+  $('[data-toggle="tooltip"]').tooltip();
   // Use 2x image for retina display by default
   // change to 1x for low resolution screen.
   // if (window.devicePixelRatio && window.devicePixelRatio < 2) {

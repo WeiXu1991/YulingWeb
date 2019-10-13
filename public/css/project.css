@@ -141,7 +141,7 @@ section img {
 }
 .next-project h2 {
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 400;
   color: #33427c;
 }
 .next-project hr {
@@ -180,10 +180,26 @@ section img {
 p:last-child{
   margin-bottom: 0;
 }
+#back-to-top-btn {
+  width: 90px;
+  height: 90px;
+  background: url(/public/assets/back-top.svg);
+  /* background-color: red; */
+  position: fixed;
+  right: 100px;
+  bottom: 100px;
+  display: none;
+}
+#back-to-top-btn.back-btn-show {
+  display: flex;
+}
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .greeting-img,
   #greeting-bg {
     height: 350px;
+  }
+  #back-to-top-btn {
+    display: none !important;
   }
 }
 @media screen and (max-width: 767px) {
@@ -208,5 +224,8 @@ p:last-child{
   }
   .next-project .row .col-lg-6:first-child {
     margin-bottom: 50px;
+  }
+  #back-to-top-btn {
+    display: none !important;
   }
 }

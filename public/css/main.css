@@ -74,18 +74,16 @@ body {
 #greeting-bg{
     display: none;
 }
-#back-to-top-btn {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    position: fixed;
-    right: 100px;
-    bottom: 100px;
-    display: none;
-}
 .navbar .navbar-brand img {
     width: 64px;
     height: 64px;
+}
+.tooltip-inner {
+    background-color: #33427c;
+    color: #ffffff;
+}
+.tooltip .arrow::before {
+    border-bottom-color: #33427c;
 }
 @media screen and (max-width: 767px) {
     .navbar .navbar-brand img {
