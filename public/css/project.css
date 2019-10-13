@@ -18,6 +18,7 @@ section .section-title {
   margin-bottom: 20px;
   text-transform: uppercase;
 }
+
 section p {
   font-family: 'Hind Madurai', sans-serif;
   font-size: 18px;
@@ -40,6 +41,7 @@ li p {
 }
 .greeting-img img {
   max-height: 100%;
+  max-width: 100%;
 }
 #greeting-bg {
   display: block;
@@ -119,6 +121,11 @@ nav.navbar {
   font-weight: 500;
   color: #454545;
 }
+@media screen and (max-width: 767px) {
+  .section-sub-title {
+      font-size: 16px;
+  }
+}
 .no-style-ul {
   list-style: none;
   padding-left: 0;
@@ -131,4 +138,75 @@ nav.navbar {
 }
 section img {
   max-width: 100%;
+}
+.next-project h2 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #33427c;
+}
+.next-project hr {
+  margin-bottom: 50px;
+}
+.next-project a {
+  text-decoration: none;
+}
+.next-project .project-subtitle {
+  font-size: 16px;
+  color: #33427c;
+}
+.next-project .project-title {
+  font-weight: 600;
+  font-size: 25px;
+  color: #454545;
+  max-width: 475px;;
+}
+.next-project .project-image {
+  background-color: #f7f7f7;
+
+  height: 280px;
+  text-align: center;
+  margin: auto;
+}
+.next-project .project-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.next-project .project-head {
+  margin-top: 20px;
+}
+.carousel-content {
+  margin-bottom: 30px;
+}
+p:last-child{
+  margin-bottom: 0;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .greeting-img,
+  #greeting-bg {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 767px) {
+  section .section-title,
+  .next-project h2,
+  .next-project .project-title {
+    font-size: 20px;
+  }
+  section p {
+    font-size: 16px;
+}
+  section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .greeting-img,
+  #greeting-bg {
+    height: 350px;
+  }
+  .greeting-img {
+    margin-bottom: 0;
+  }
+  .next-project .row .col-lg-6:first-child {
+    margin-bottom: 50px;
+  }
 }

@@ -16,3 +16,12 @@
 #more-exploration .gray-bg {
   margin-bottom: 20px;
 }
+.solution-subtitle {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+@media screen and (max-width: 767px) {
+  #persona .col-content-8 img {
+    max-width: 100%;
+  }
+}

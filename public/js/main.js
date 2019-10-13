@@ -16,6 +16,15 @@ $(document).ready(($) => {
 
   // eslint-disable-next-line no-unused-vars
 
+  $('#back-to-top-btn').click(() => {
+    // const topPosition = $(window).scrollTop();
+    // console.log(topPosition);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    // window.scrollTo(0, topPosition - topPosition / 8);
+    // $('html, body').animate({ scrollTop: topPosition }, 500);
+    return false;
+  });
 
   $('#email-nav').click((e) => {
     e.preventDefault();

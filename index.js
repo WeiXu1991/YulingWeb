@@ -34,16 +34,25 @@ app.get('/projects/datepicking', (req, res) => {
   //   return;
   // }
   dataPickingPageData.currentYear = (new Date()).getFullYear();
+  dataPickingPageData.projects = [];
+  dataPickingPageData.projects.push(homePageData.projects[0]);
+  dataPickingPageData.projects.push(homePageData.projects[2]);
   res.render('datePicking', dataPickingPageData);
 });
 
 app.get('/projects/planning', (req, res) => {
   planningPageData.currentYear = (new Date()).getFullYear();
+  planningPageData.projects = [];
+  planningPageData.projects.push(homePageData.projects[1]);
+  planningPageData.projects.push(homePageData.projects[2]);
   res.render('planning', planningPageData);
 });
 
 app.get('/projects/SFCCDM320', (req, res) => {
-  planningPageData.currentYear = (new Date()).getFullYear();
+  sfccPageData.currentYear = (new Date()).getFullYear();
+  sfccPageData.projects = [];
+  sfccPageData.projects.push(homePageData.projects[0]);
+  sfccPageData.projects.push(homePageData.projects[1]);
   res.render('sfccdm320', sfccPageData);
 });
 

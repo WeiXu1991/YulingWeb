@@ -101,9 +101,9 @@ section(id='persona' class="container-fluid")
     h2(class='section-title col-lg-8 col-md-10') Persona
     div(class='gray-bg container-fluid')
       div(class='col-content-8 row justify-content-md-center')
-        div(class='col-lg-2 col-md-2 ver-hor-center')
+        div(class='col-lg-2 col-md-2 col-sm-4 col-4 ver-hor-center')
           img(src='/public/assets/persona.jpg')
-        div(class='col-lg-6 col-md-8 ver-center')
+        div(class='col-lg-6 col-md-8 col-sm-8 col-8 ver-center')
           span.
             A 25 young profession is planning his 6-day time off.
             He has several destinations in mind with settled dates.
@@ -129,6 +129,10 @@ section(class="container-fluid")
         a(class="carousel-control-next" href="#carouselFlow" role="button" data-slide="next")
           span(class="carousel-control-next-icon" aria-hidden="true")
           span(class="sr-only") Next
+    p(class='col-lg-8 col-md-10').
+      The general flow is that a user navigates through the Globaleur city list page to planning cart page for more than one city planning.
+    p(class='col-lg-8 col-md-10').
+      According to this flow, users need to add the city one by one. Our system requires specific dates to generate planning itinerary. Therefore, after all the cities had been picked, users should select dates for each city manually. After presenting my design explorations with other designers, I found out that changing the way of date picking could help increase planning engagement. So I made a few changes in it. Since planning engagement ties closely with our revenue, I decided to make several wireframes to make the whole flow more intuitive.
 
 section(class="container-fluid")
   div(class="section-wrapper row justify-content-md-center")
@@ -155,6 +159,10 @@ section(class="container-fluid")
         a(class="carousel-control-next" href="#carouselWireframe" role="button" data-slide="next")
           span(class="carousel-control-next-icon" aria-hidden="true")
           span(class="sr-only") Next
+    p(class='col-lg-8 col-md-10').
+      After doing a competitive analysis and doing some researches on this project, we started working on wireframes. This phase took a lot of time because feasibility is one of the biggest problems for us to consider. After talking with the team and engineer, we got lots of reviews and updates. They gave us a new aspect to think about this feature.
+    p(class='col-lg-8 col-md-10').
+      The three versions have solid pros and cons. For version #1 and version #2, we didn 't separate the city picking process. We thought it is easier for users to select all the cities that they would like to go at the same time. Since our algorithm requires an actual date to generate trip literature,  the process of date picking is essential.  We tested and evaluated version #1 and version #2. We found out that it simplified the process, but so many changes for the flow would increase and delay the time to launch our App.  So version # 3 is more suitable at this point to achieve the goals.
 
 section(id='final-design' class="container-fluid")
   div(class="section-wrapper row justify-content-md-center")
@@ -182,7 +190,7 @@ section(id='prototypes' class="container-fluid")
     h2(class='section-title col-lg-8 col-md-10') PROTOTYPES
     div(class='container-fluid')
       div(class='row section-first-row')
-        div(class='col-lg-4 offset-lg-4 col-md-4 offset-md-1')
+        div(class='img-wrap col-lg-4 offset-lg-4 col-md-4 offset-md-1 col-sm-12 col-12 ver-hor-center')
           img(src="/public/assets/DP01.gif", alt="")
         div(class='col-lg-4 col-md-6')
           div(class='top-bar')
@@ -196,15 +204,15 @@ section(id='prototypes' class="container-fluid")
             The system will generate a plan based on the listed order.
             And it will simplify the process and with enough information that users might not feel lost and confused.
       div(class='row')
-        div(class='col-lg-4 col-md-6 offset-lg-0 offset-md-1')
+        div(class='img-wrap col-lg-4 col-md-4 order-lg-2 order-md-2 col-sm-12 col-12 ver-hor-center')
+          img(src="/public/assets/DP02.gif", alt="")
+        div(class='col-lg-4 col-md-6 order-lg-1 order-md-1 offset-lg-0 offset-md-1')
           div(class='top-bar')
           h3(class='section-sub-title') Scalability
           p.
             This version clears and simplifies the steps while the users are picking more than one cities.
             The calendar will remind the user that the date and city they have picked.
             This page can easily be reformatted as a page for different devices.
-        div(class='col-lg-4 col-md-4')
-          img(src="/public/assets/DP02.gif", alt="")
 
 section(class="container-fluid")
   div(class="section-wrapper row justify-content-md-center")

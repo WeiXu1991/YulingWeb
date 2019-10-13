@@ -83,8 +83,28 @@
 .contact-info {
     padding-left: 1.5rem;
 }
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
     .project-head {
         margin-top: 20px;
+    }
+}
+@media screen and (min-width: 768px) {
+
+}
+@media screen and (max-width: 767px) {
+    .project .project-title {
+        font-size: 20px;
+    }
+    .project .project-image {
+        height: 290px;
+    }
+    .hidden-sm {
+        display: none;
+    }
+    .navbar-nav {
+        display: flex !important;
+    }
+    .contact-info {
+        display: none;
     }
 }

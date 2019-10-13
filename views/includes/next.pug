@@ -1,0 +1,11 @@
+h2 OTHER PROJECTS
+hr
+div(class='row')
+  each project in projects
+    div(class='col-lg-6')
+      a(href=project.link)
+        div(class='project-image')
+          img(src=project.image)
+        div(class='project-head')
+          h2(class="project-subtitle") #{project.subTitle}
+          h1(class="project-title") #{project.title}

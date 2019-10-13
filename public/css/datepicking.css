@@ -52,7 +52,7 @@
   margin-right: 120px;
   color: #33427c;
 }
-.carousel-indicators li.active{
+.carousel-indicators li.active span{
   border-bottom: #33427c 2px solid;
 }
 .carousel-indicators li span {
@@ -67,4 +67,28 @@
 }
 #carouselWireframe .carousel-item img {
   margin-bottom: 50px;
+}
+@media screen and (max-width: 767px) {
+  .carousel-indicators {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .carousel-indicators li {
+    margin-right: 0;
+    width: 50%;
+    text-align: center;
+  }
+  #carouselWireframe .carousel-indicators li {
+    width: 33.3%;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+  #prototypes .img-wrap {
+    margin-bottom: 30px;
+  }
+  #prototypes .section-first-row {
+    margin-bottom: 100px;
+  }
 }

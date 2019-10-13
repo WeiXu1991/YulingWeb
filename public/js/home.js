@@ -3,18 +3,39 @@
 /* global window document $ */
 $(document).ready(($) => {
   const textChangeSpeed = 250;
-  let selfIntroYOffset = $('.self-intro').offset().top;
+  let selfIntroYOffset = $('.self-intro.container').offset().top;
   let navHeight = $('nav').outerHeight();
   const colorSet = ['#44467a', '#ff565e'];
+  let navPositionTop = -parseInt($('.navbar.fixed-top').css('top'), 10);
+  let preYOffset = window.pageYOffset;
 
   $('.navbar-nav').addClass('hide-nav-links');
 
   $(window).scroll(() => {
-    if (window.pageYOffset + navHeight > selfIntroYOffset) {
+    // if (window.pageYOffset + navHeight > selfIntroYOffset) {
+    if (window.pageYOffset > navHeight) {
       $('.navbar-nav').removeClass('hide-nav-links');
     } else {
       $('.navbar-nav').addClass('hide-nav-links');
     }
+    if (window.pageYOffset > preYOffset) {
+      if (navPositionTop < navHeight) {
+        navPositionTop += window.pageYOffset - preYOffset;
+        navPositionTop = navPositionTop > navHeight ? navHeight : navPositionTop;
+      }
+    } else if (window.pageYOffset < preYOffset) {
+      if (navPositionTop > 0) {
+        navPositionTop += window.pageYOffset - preYOffset;
+        navPositionTop = navPositionTop > 0 ? navPositionTop : 0;
+      }
+    } else {
+      preYOffset = window.pageYOffset;
+      return;
+    }
+    $('.navbar.fixed-top').css({
+      top: `${-navPositionTop}px`,
+    });
+    preYOffset = window.pageYOffset;
   });
 
   $(window).resize(() => {
