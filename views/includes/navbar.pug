@@ -9,7 +9,7 @@ nav(class='navbar navbar-expand justify-content-between fixed-top')
       alt='Brand logo, click to go to home page!'
       )
   ul(class='navbar-nav')
-    li(class='nav-item')
+    li(class='nav-item' id='nav-email-copy')
       a(class='nav-link')
         img(
           src='/public/assets/email@2x.png'
@@ -17,6 +17,23 @@ nav(class='navbar navbar-expand justify-content-between fixed-top')
           height='30px'
           alt='Email address, hover and click to copy!'
           )
+      div(id='nav-email-copy-wrapper')
+        div(id='nav-email-copy-content')
+          div(class='email-address position-relative')
+            input(
+              id='email-text'
+              type='text'
+              value='ypandesign@gmail.com'
+              readonly
+              )
+            button(id='copy-email', type='button') Copy
+            input(
+              id='nav-email-copy-success'
+              class='hidden position-absolute'
+              type='text'
+              value='EMAIL COPIED'
+              readonly
+              )
     li(class='nav-item')
       a(
         id='nav-link-resume'

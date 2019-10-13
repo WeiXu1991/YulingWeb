@@ -85,6 +85,59 @@ body {
 .tooltip .arrow::before {
     border-bottom-color: #33427c;
 }
+#nav-email-copy {
+    cursor: pointer;
+    position: relative;
+}
+#nav-email-copy-wrapper {
+    top: 35px;
+    padding-top: 8px;
+    position: absolute;
+    width: 220px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s linear;
+}
+#nav-email-copy-wrapper input {
+    width: 140px;
+    padding-left: 8px;
+    vertical-align: middle;
+    height: 36px;
+    border: 0;
+    cursor: text;
+    color: #33427c;
+    font-size: 12px;
+    font-weight: 300;
+}
+#nav-email-copy-wrapper button {
+    width: 62px;
+    height: 100%;
+    border-radius: 3px;
+    background-color: #33427c;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    border: 0;
+}
+#nav-email-copy:hover #nav-email-copy-wrapper{
+    visibility: visible;
+    opacity: 1;
+}
+#nav-email-copy-success{
+    left: 0;
+    font-size: 12px;
+}
+#nav-email-copy .email-address {
+    display: inline-block;
+    height: 40px;
+    border-radius: 4px;
+    border: solid 1px #e2e2e2;
+}
 @media screen and (max-width: 767px) {
     .navbar .navbar-brand img {
         width: 40px;

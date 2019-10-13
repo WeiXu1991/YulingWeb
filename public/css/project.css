@@ -189,6 +189,10 @@ p:last-child{
   right: 100px;
   bottom: 100px;
   display: none;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 400px;
+  text-transform: capitalize
 }
 #back-to-top-btn.back-btn-show {
   display: flex;
