@@ -66,7 +66,9 @@ section(class="container-fluid")
   div(class="section-wrapper row justify-content-md-center")
     h2(class='section-title col-lg-8 col-md-10') Process
     div(class='section-img-process section-img col-12 container-fluid')
-      div(class='section-img-process row justify-content-md-center')
+      div(data-toggle="modal"
+          data-target="#processModalImg"
+          class='section-img-process row justify-content-md-center')
         div(class='col-lg-10 col-md-12 ver-hor-center')
           img(src="/public/assets/process.png", alt="")
 
@@ -168,7 +170,9 @@ section(id='final-design' class="container-fluid")
   div(class="section-wrapper row justify-content-md-center")
     h2(class='section-title col-lg-8 col-md-10') FINAL DESIGN
     div(class='gray-bg container-fluid')
-      div(class='row .ver-hor-center justify-content-md-center')
+      div(data-toggle="modal"
+          data-target="#finalModalImg"
+          class='row .ver-hor-center justify-content-md-center')
         div(class='col-lg-12 ver-hor-center')
           img(src="/public/assets/finalD_2.png", alt="")
     p(class='col-lg-8 col-md-10').
