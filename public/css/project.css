@@ -105,11 +105,15 @@ nav.navbar {
   counter-reset: item;
   padding-left: 0;
   font-weight: 500;
+  margin-bottom: 0;
 }
 .number-list li {
   display: block;
   margin-left: 1.7em;
-  margin-top: 15px;
+  margin-top: 1em;
+}
+.number-list li:first-child {
+  margin-top: 0;
 }
 .number-list li:before {
   content: counter(item) ". ";
@@ -124,6 +128,7 @@ nav.navbar {
   font-size: 18px;
   font-weight: 500;
   color: #454545;
+  margin-bottom: 1em;
 }
 @media screen and (max-width: 767px) {
   .section-sub-title {
@@ -143,9 +148,12 @@ nav.navbar {
 section img {
   max-width: 100%;
 }
+.next-project {
+  margin-top: 50px;
+}
 .next-project h2 {
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 500;
   color: #33427c;
 }
 .next-project hr {
@@ -157,9 +165,10 @@ section img {
 .next-project .project-subtitle {
   font-size: 16px;
   color: #33427c;
+  margin-bottom: 10px;
 }
 .next-project .project-title {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 25px;
   color: #454545;
   max-width: 475px;;
@@ -206,6 +215,9 @@ p:last-child{
   height: 80vh;
   margin-top: 10vh;
 }
+.modal-content {
+  border: 0;
+}
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .greeting-img,
   #greeting-bg {
@@ -213,6 +225,9 @@ p:last-child{
   }
   #back-to-top-btn {
     display: none !important;
+  }
+  .next-project .row .col-lg-6:first-child {
+    margin-bottom: 50px;
   }
 }
 @media screen and (max-width: 767px) {

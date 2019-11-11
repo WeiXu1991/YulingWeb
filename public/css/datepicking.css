@@ -25,13 +25,13 @@
 }
 #competitors .section-img {
   height: 65px;
-  margin-top: 15px;
+  /* margin-top: 15px; */
 }
 #prototypes .section-title {
   margin-bottom: 50px;
 }
 #prototypes .section-first-row {
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 .carousel-control-prev,
 .carousel-control-next {
