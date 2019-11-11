@@ -6,15 +6,20 @@
 #persona .col-content-8 img {
   max-width: 125px;
 }
-#wireframe .gray-bg,
-#final-design .gray-bg {
+#wireframe .gray-bg{
   margin-bottom: 20px;
+}
+#final-design .gray-bg {
+  margin-bottom: 50px;
 }
 #version-2-img {
   margin-top: 80px;
 }
 #more-exploration .gray-bg {
   margin-bottom: 20px;
+}
+#solution .list-title {
+  margin-bottom: 1em;
 }
 .solution-subtitle {
   font-weight: 500;
@@ -27,8 +32,24 @@
   margin-bottom: 0;
   margin-top: 1em;
 }
+.plan-gif {
+  margin-bottom: 1.5em;
+}
+.final-plan-gif {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.final-plan-gif p {
+  font-size: 18px;
+  color: #454545;
+  font-weight: 500;
+  margin-top: 10px;
+}
 @media screen and (max-width: 767px) {
   #persona .col-content-8 img {
     max-width: 100%;
+  }
+  .final-plan-gif:first-child {
+    margin-bottom: 30px;
   }
 }

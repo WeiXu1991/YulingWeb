@@ -196,7 +196,7 @@ p:last-child{
 #back-to-top-btn {
   width: 90px;
   height: 90px;
-  background: url(/public/assets/back-top.svg);
+
   /* background-color: red; */
   position: fixed;
   right: 100px;
@@ -205,7 +205,17 @@ p:last-child{
   cursor: pointer;
   font-size: 12px;
   font-weight: 400px;
-  text-transform: capitalize
+  text-transform: capitalize;
+
+}
+#back-to-top-btn .back-top-bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(/public/assets/back-top.svg);
+  animation: spining 3s ease-in-out infinite;
 }
 #back-to-top-btn.back-btn-show {
   display: flex;

@@ -26,12 +26,12 @@ section(class="container-fluid")
           p.
             <strong>The recommendation is invisible for the users,</strong> it should be highlighted.
 
-section(class="container-fluid")
+section(class="container-fluid" id="solution")
   div(class="section-wrapper row justify-content-md-center")
     h2(class='section-title col-lg-8 col-md-10') SOLUTION
     p(class='col-lg-8 col-md-10').
       We decided to redesign the process of planning to organize the planning steps and let users get started easily.  In the meantime, explore more possibilities to display the Recommendations.
-    p(class='col-lg-8 col-md-10').
+    p(class='col-lg-8 col-md-10 list-title').
       It will be achieved through 2 goals:
     div(class='col-lg-8 col-md-10')
       ol(class='number-list')
@@ -141,6 +141,8 @@ section(id='more-exploration' class="container-fluid")
           p &nbsp;&nbsp;&nbsp;&nbsp;- POI (Visualization)
     p(class='col-lg-8 col-md-10').
       After presenting my design explorations with other designers and engineers, I found out that big images and icons simplify the information.  Visualized brief data is more intuitive and more useful. Generally, the pictured itinerary list became a winning experiment.
+    div(class="plan-gif col-lg-12 col-md-12 ver-hor-center")
+      img(src="/public/assets/planning_after1.gif", alt="")
     p(class='col-lg-8 col-md-10').
       I decided to use a foldable design to avoid any visual noise so that users would engage more easily with the daily card. And it also saved more space to display the recommendations. Besides, I designed a switch toggle button to expand all the cards while clicking, so a whole trip summary will be shown.
 
@@ -153,6 +155,14 @@ section(id='final-design' class="container-fluid")
           class='row justify-content-md-center')
         div(class='col-lg-12 ver-hor-center')
           img(src="/public/assets/final.jpg", alt="")
+    div(class="col-lg-8 col-md-10 container-fluid")
+      div(class="row")
+        div(class="final-plan-gif col-lg-6 col-md-6 col-sm-12")
+          img(src="/public/assets/planning_before.gif", alt="")
+          p Before
+        div(class="final-plan-gif col-lg-6 col-md-6 col-sm-12")
+          img(src="/public/assets/planning_after2.gif", alt="")
+          p After_Planning Details
     p(class='col-lg-8 col-md-10').
       "Planning hub" and "Planning Detail" are sharing different functions, which make the planning process more organized and the purpose of the page is more clear. Visualized itineraries are more appealing to users.  A big map page fully demonstrates the advantage of the map. Adequate information not only fills the white space but also improves the engagement with users.  It decreases the possibility of misunderstanding and confusing, and the users won't need time to learn while they are planning the trips.
     p(class='col-lg-8 col-md-10').
