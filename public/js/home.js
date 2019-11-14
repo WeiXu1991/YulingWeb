@@ -99,7 +99,7 @@ $(document).ready(($) => {
     }
   }
 
-  const textArray = ['Yuling Pan', 'an UX/UI designer'];
+  const textArray = ['Yuling Pan', 'a UX/UI designer'];
   if (textArray && textArray.length > 0) {
     showNextLetter(textArray, 0, 0, 1);
   }
