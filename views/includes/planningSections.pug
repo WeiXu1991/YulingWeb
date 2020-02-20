@@ -79,7 +79,7 @@ section(id='persona' class="container-fluid")
           img(src='/public/assets/persona.png')
         div(class='col-lg-6 col-md-8 col-sm-8 col-8 ver-center')
           span.
-            A 28 young professional is planning his 6-day business trip in San Francisco. Globaleur has access to his business schedule and records his preferences.
+            A 28 young professional is planning his business trip in San Francisco. He is a classic and art & culture vulture tourist. It always takes a lot of time for him to make a plan, so he wants to use others template and makes minor changes based on his preference.
 
 section(id='wireframe' class="container-fluid")
   div(class="section-wrapper row justify-content-md-center")
@@ -106,17 +106,27 @@ section(id='wireframe' class="container-fluid")
           data-target="#wireframeModalImg2"
           class='row justify-content-md-center')
         div(class='col-lg-12 ver-hor-center')
-          img(src="/public/assets/Version2.png", alt="")
+          img(src="/public/assets/Improve.png", alt="")
     p(class='col-lg-8 col-md-10').
       According to the problems we figured out from the previous version, we redesigned the planning pages.
     p(class='col-lg-8 col-md-10').
-      <strong>Valuable but confusing:</strong> We separated the planning page into "Planning Hub" and "Planning Detail". The page layout and hierarchy are more precise than before. Plan preview (others plan) and planning (personal) are two individual pages, although they have a similar layout.
+      <strong>Separated the planning page:</strong> We separated the planning page into "Planning Hub" and "Planning Detail". The page layout and hierarchy are more precise than before. Plan preview (others plan) and planning (personal) are two individual pages, although they have a similar layout.
     p(class='col-lg-8 col-md-10').
-      <strong>Useful but Low Usage:</strong> I changed the layout of the suggestions and visualize the data to catch users' eyes. A full-screen map with a detailed route can provide more information for the users.
+      <strong>Use a full size map:</strong> A full-screen map with a detailed route can provide more information for the users.
+    p(class='col-lg-8 col-md-10').
+      <strong>Visualized and highlighted recommendation:</strong> I Changed the layout of the suggestions and visualize the data to catch users' eyes.
 
 section(id='more-exploration' class="container-fluid")
   div(class="section-wrapper row justify-content-md-center")
     h2(class='section-title col-lg-8 col-md-10') MORE EXPLORATION
+    div(class='gray-bg container-fluid')
+      div(data-toggle="modal"
+          data-target="#moreExploModalImg"
+          class='row justify-content-md-center')
+        div(class='col-lg-12 ver-hor-center')
+          img(id="more-exp-1" src="/public/assets/More-explo.png", alt="")
+    p(id="more-exp-2" class='col-lg-8 col-md-10').
+      The finish button is too highlighted on the bottom, so the users cannot help to click the button directly. I was using this big button because I would like to keep the consistency of the design with the plan preview page, but after we did user testing we found out this button is too distracting for the users. Then I decided to use the Android default done button which is located on the top right side. It is visible but not confusing.
     div(class='gray-bg container-fluid')
       div(data-toggle="modal"
           data-target="#moreExplorationModalImg"
@@ -141,8 +151,8 @@ section(id='more-exploration' class="container-fluid")
           p &nbsp;&nbsp;&nbsp;&nbsp;- POI (visualization)
     p(class='col-lg-8 col-md-10').
       After presenting my design explorations with other designers and engineers, I found out that big images and icons simplify the information.  Visualized brief data is more intuitive and more useful. Generally, the pictured itinerary list became a winning experiment.
-    div(class="plan-gif col-lg-12 col-md-12 ver-hor-center")
-      img(src="/public/assets/planning_after1.gif", alt="")
+    //- div(class="plan-gif col-lg-12 col-md-12 ver-hor-center")
+    //-   img(src="/public/assets/planning_after1.gif", alt="")
     p(class='col-lg-8 col-md-10').
       I decided to use a foldable design to avoid any visual noise so that users would engage more easily with the daily card. And it also saved more space to display the recommendations. I designed a switch toggle button to expand all the cards while clicking, so a whole trip summary will be shown.
 
@@ -154,15 +164,15 @@ section(id='final-design' class="container-fluid")
           data-target="#finalDesignModalImg"
           class='row justify-content-md-center')
         div(class='col-lg-12 ver-hor-center')
-          img(src="/public/assets/final.jpg", alt="")
+          img(src="/public/assets/final.png", alt="")
     div(class="col-lg-8 col-md-10 container-fluid")
       div(class="row")
         div(class="final-plan-gif col-lg-6 col-md-6 col-sm-12")
-          img(src="/public/assets/planning_before.gif", alt="")
-          p Before
+          img(src="/public/assets/maplistD2.gif", alt="")
+          p Planning
         div(class="final-plan-gif col-lg-6 col-md-6 col-sm-12")
-          img(src="/public/assets/planning_after2.gif", alt="")
-          p After_Planning Details
+          img(src="/public/assets/suggestionD3.gif", alt="")
+          p Suggestions
     p(class='col-lg-8 col-md-10').
       "Planning Hub" and "Planning Detail" are sharing different functions, which make the planning process more organized and the purpose of the page is clearer. A big map page fully demonstrates the advantage of the map. Adequate information not only fills the white space but also improves the engagement with users.  It decreases the possibility of misunderstanding and confusing, and the users won't need time to learn while they are planning the trips.
     p(class='col-lg-8 col-md-10').
