@@ -14,6 +14,7 @@
 }
 #version-2-img {
   margin-top: 80px;
+  margin-bottom: 0 !important;
 }
 #more-exploration .gray-bg {
   margin-bottom: 20px;
