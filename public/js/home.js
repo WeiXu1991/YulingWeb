@@ -5,7 +5,7 @@ $(document).ready(($) => {
   const textChangeSpeed = 250;
   let selfIntroYOffset = $('.self-intro.container').offset().top;
   let navHeight = $('nav').outerHeight();
-  const colorSet = ['#44467a', '#ff565e'];
+  const colorSet = ['#5808B6', '#FE336E'];
   let navPositionTop = -parseInt($('.navbar.fixed-top').css('top'), 10);
   let preYOffset = window.pageYOffset;
 

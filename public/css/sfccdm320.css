@@ -37,3 +37,6 @@ img {
 #final-design .design-img-container:not(:last-child) {
   margin-bottom: 100px;
 }
+#greeting-bg{
+  background-color: #ff6969;
+}

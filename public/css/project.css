@@ -163,16 +163,23 @@ section img {
   text-decoration: none;
 }
 .next-project .project-subtitle {
-  font-size: 16px;
-  color: #33427c;
+  font-size: 12px;
+  color: #454545;
+  font-weight: 500;
   margin-bottom: 10px;
 }
 .next-project .project-title {
-  font-weight: 500;
-  font-size: 25px;
+  font-weight: 700;
+  font-size: 30px;
   color: #454545;
   max-width: 475px;;
 }
+.next-project .project-detail-text {
+  font-size: 15;
+  color: #454545;
+  font-weight: 300;
+}
+
 .next-project .project-image {
   background-color: #f7f7f7;
 
@@ -185,7 +192,17 @@ section img {
   max-height: 100%;
 }
 .next-project .project-head {
-  margin-top: 20px;
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+.next-project .project-next-container {
+  padding-top: 15px;
+}
+.next-project .next-project-header {
+  color: #5808B6;
+}
+.next-project .project-next-container:hover {
+  box-shadow: 1px 2px 10px 0 rgba(0, 0, 0, 0.16);
 }
 .carousel-content {
   margin-bottom: 30px;
@@ -244,7 +261,7 @@ p:last-child{
   section .section-title,
   .next-project h2,
   .next-project .project-title {
-    font-size: 20px;
+    font-size: 25px;
   }
   section p {
     font-size: 16px;

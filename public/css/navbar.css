@@ -9,6 +9,29 @@ nav {
   transition: opacity 0.3s;
   opacity: 1;
 }
+#email-icon,
+#reseum-icon,
+#linkedin-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  background-position-y: -30px;
+}
+#linkedin-icon {
+  background-image: url(/public/assets/linkedinsp.png);
+}
+#reseum-icon {
+  background-image: url(/public/assets/reseumsp.png);
+}
+#email-icon {
+  background-image: url(/public/assets/emailsp.png);
+}
+#email-icon.show-pp,
+#reseum-icon.show-pp,
+#linkedin-icon.show-pp {
+  background-position-y: 0;
+}
 @media screen and (min-width: 768px) {
   .navbar-nav.hide-nav-links {
     display: none;

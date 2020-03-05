@@ -33,6 +33,9 @@
 #prototypes .section-first-row {
   margin-bottom: 100px;
 }
+#greeting-bg{
+  background-color: #fb4c87;
+}
 .carousel-control-prev,
 .carousel-control-next {
   opacity: 1;

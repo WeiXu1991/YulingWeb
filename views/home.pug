@@ -55,12 +55,16 @@ block content
   div(class='project-list container')
     each project in projects
       a(href=project.link)
-        div(class='project row')
+        div(class='project')
 
-
-          div(class='project-image col-lg-7 order-lg-2')
-            img(src=project.image)
-          div(class='project-head col-lg-5 col-md-7 order-lg-1')
-            h2(class="project-subtitle") #{project.subTitle}
-            h1(class="project-title") #{project.title}
+          div(class='project-info row')
+            div(class='project-image col-lg-7 order-lg-2')
+              img(src=project.image)
+            div(class='project-head col-lg-5 col-md-7 order-lg-1')
+              h2(class="project-subtitle") #{project.subTitle}
+              h1(class="project-title") #{project.title}
+              p(class="project-detail-text") #{project.detailText}
   script(src='/public/js/home.js')
+//- 2961ff
+//- 1b407a
+//- ff8a5c

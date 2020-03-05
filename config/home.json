@@ -1,21 +1,27 @@
 {
   "projects": [
     {
-      "title": "Globaleur Planning Feature - Exploring the Protential for Plan-hub Page",
-      "subTitle": "UI & UX Project",
+      "title": "Itinerary Planning",
+      "subTitle": "Globaleur UI & UX Project",
+      "detailText": "Exploring the Potential for Travel Itinerary Planning",
       "image": "/public/assets/planhub_homepic.png",
+      "bgColor": "#3e70ff",
       "link": "/projects/planning"
     },
     {
-        "title": "Globaleur Date Picking Feature - Exploring City and Date Picking Possibilities",
-        "subTitle": "UI & UX Project",
+        "title": "City and Date Picking",
+        "subTitle": "Globaleur UI & UX Project",
+        "detailText": "Exploring City and Date Picking Possibilities",
         "image": "/public/assets/datepick_homepic.png",
+        "bgColor": "#fb4c87",
         "link": "/projects/datePicking"
     },
     {
-      "title": "SFCCDM - A Digital Map for SF Cable Car ",
-      "subTitle": "UI & UX Project",
+      "title": "SFCCDM",
+      "subTitle": "Personal UI & UX Project",
+      "detailText": "A Digital Map for San Francisco Cable Car",
       "image": "/public/assets/sf_homepage.png",
+      "bgColor": "#ff6969",
       "link": "/projects/SFCCDM320"
     }
   ],
