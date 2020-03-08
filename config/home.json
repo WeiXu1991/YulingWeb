@@ -20,8 +20,8 @@
       "title": "SFCCDM",
       "subTitle": "Personal UI & UX Project",
       "detailText": "A Digital Map for San Francisco Cable Car",
-      "image": "/public/assets/sf_homepage.png",
-      "bgColor": "#ff6969",
+      "image": "/public/assets/sf_homepage_gif.gif",
+      "bgColor": "#FF7171",
       "link": "/projects/SFCCDM320"
     }
   ],

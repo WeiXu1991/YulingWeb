@@ -32,6 +32,10 @@ nav {
 #linkedin-icon.show-pp {
   background-position-y: 0;
 }
+.navbar-brand img {
+  max-width: 50px;
+  max-height: 50px;
+}
 @media screen and (min-width: 768px) {
   .navbar-nav.hide-nav-links {
     display: none;

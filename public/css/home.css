@@ -27,7 +27,7 @@
     color: #454545;
 }
 .project-list {
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .project-list a {
     text-decoration: none;
@@ -58,10 +58,21 @@
 }
 
 .project-list a:nth-child(3) .project .project-info {
-    background-color: #ff6969;
+    background-color: #FF7171;
+}
+.project-list a:nth-child(3) .project-image img {
+    box-shadow: 1px 10px 20px 0 rgba(0, 0, 0, 0.16);
 }
 .project {
-    margin-top: 50px;
+    margin-top: 30px;
+}
+
+nav.navbar {
+    background: transparent;
+}
+
+#email-icon, #reseum-icon, #linkedin-icon {
+    background-position-y: 0;
 }
 
 .project .project-image {
@@ -128,10 +139,25 @@
 @media screen and (max-width: 991px) {
     .project-head {
         margin-top: 20px;
+        background-color: #ffffff;
+        padding-top: 30px;
+        padding-left: 0;
     }
+    .project-head .project-subtitle,
+    .project-head .project-title,
+    .project-head .project-detail-text {
+        color: #454545;
+        text-shadow: none;
+    }
+
+
 }
 
 @media screen and (max-width: 767px) {
+    .project-head {
+        padding-top: 15px;
+        padding-left: 0;
+    }
     .project .project-title {
         font-size: 20px;
     }
@@ -154,6 +180,6 @@
         margin-top: 70px;
     }
     .project-list {
-        margin-top: 100px;
+        margin-top: 50px;
     }
 }
