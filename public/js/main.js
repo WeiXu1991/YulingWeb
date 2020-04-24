@@ -27,10 +27,10 @@ $(document).ready(($) => {
     return false;
   });
 
-  $('#email-nav').click((e) => {
-    e.preventDefault();
-  });
-  $('#copy-email').click((e) => {
+  // $('#email-nav').click((e) => {
+  //   e.preventDefault();
+  // });
+  $('#copy-email-home, #copy-email-nav').click((e) => {
     e.preventDefault();
     navigator.permissions.query({ name: 'clipboard-write' }).then((result) => {
       if (result.state === 'granted' || result.state === 'prompt') {
