@@ -76,10 +76,10 @@
   vertical-align: middle;
   height: 36px;
 }
-#email-nav:hover #email-copy-wrapper{
+/* #email-nav:hover #email-copy-wrapper{
   visibility: visible;
   opacity: 1;
-}
+} */
 #email-copy-success{
   left: 0;
   font-size: 12px;

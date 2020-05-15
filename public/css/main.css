@@ -124,10 +124,10 @@ body {
     color: #ffffff;
     border: 0;
 }
-#nav-email-copy:hover #nav-email-copy-wrapper{
+/* #nav-email-copy:hover #nav-email-copy-wrapper{
     visibility: visible;
     opacity: 1;
-}
+} */
 #nav-email-copy-success{
     left: 0;
     font-size: 12px;
